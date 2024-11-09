@@ -1,0 +1,24 @@
+global:
+    smtp:
+        host: some-smtp-server-hostname
+        port: 25
+        user:
+        password:
+        disable_tls: true
+        from_email: no-reply@example.com
+        from_name: MailBear
+    http:
+        address: ":1234"
+    metrics:
+        address: ":9090"
+    
+
+forms:
+    some-form-name:
+        key: some-random-key
+        allowed_domains:
+            - localhost:8080
+            - example.com
+        to_email:
+            - recipient@example.com
+            - another-recipient@example.com
