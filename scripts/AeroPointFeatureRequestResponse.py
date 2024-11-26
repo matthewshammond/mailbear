@@ -33,7 +33,7 @@ tell application "Mail"
 
 	set theFrom to "info@aeropoint.app"
 	set theTo to "%s"
-    set theSubject to "Re: %s"
+    set theSubject to "%s"
 	set theContent to "%s,
 
 Thank you for requesting a new feature! I’ll review your message and reach out promptly if I have any questions about your request."

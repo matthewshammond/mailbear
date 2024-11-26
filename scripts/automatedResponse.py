@@ -33,7 +33,7 @@ tell application "Mail"
 
 	set theFrom to "contact@matthammond.com"
 	set theTo to "%s"
-    set theSubject to "Re: %s"
+    set theSubject to "%s"
 	set theContent to "%s,
 
 Thanks for reaching out through my website. I'll be sure to check your message and get back to you promptly with any information or assistance you need."
