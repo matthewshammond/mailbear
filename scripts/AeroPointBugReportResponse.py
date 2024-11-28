@@ -36,7 +36,7 @@ tell application "Mail"
     set theSubject to "%s"
 	set theContent to "%s,
 
-Thank you for suggesting a new feature! I’ll review your request and will reach out promptly if I need any additional details. I appreciate your input and interest in improving the software!"
+Thank you for bringing this issue to my attention! I’ll review your report thoroughly and will reach out promptly if I need any additional details to address the bug."
 
     set theMessage to make new outgoing message with properties {sender:theFrom, subject:theSubject, content:theContent, message signature:(signature named "AeroPointFormResponse"), visible:true}
     ---
